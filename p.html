@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 60%;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            padding: 20px;
+        }
+        .left-box {
+            width: 30%;
+            padding: 10px;
+        }
+        .left-box img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .right-box {
+            width: 70%;
+            padding: 20px;
+        }
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            background: #333;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        .nav a:hover {
+            background: #575757;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-box">
+            <img src="profile.jpg" alt="Your Image">
+        </div>
+        <div class="right-box">
+            <div class="nav">
+                <a href="#">Home</a>
+                <a href="#">Practice</a>
+                <a href="#">Work</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <h2>Welcome to My Profile</h2>
+            <p>This is a brief introduction about me...</p>
+        </div>
+    </div>
+</body>
+</html>
